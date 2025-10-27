@@ -24,7 +24,7 @@ processor = AutoProcessor.from_pretrained("Qwen/Qwen3-VL-2B-Instruct")
 print("Model loaded!")
 print(f"Model load time: {time.time() - start_time:.2f} seconds")
 
-image_path = "C:/Users/Legus/Downloads/IMG_7244.JPG"
+image_path = "IMG_7244.JPG"
 image = Image.open(image_path).convert("RGB")
 
 # Resize to reduce VRAM usage
